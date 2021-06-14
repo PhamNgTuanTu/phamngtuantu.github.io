@@ -642,12 +642,6 @@
   #progressbar {
     display: none;
   }
-  .animated {
-    visibility: hidden;
-    animation-duration: none;
-    animation-delay: none;
-    animation-name: none;
-  }
   .active-scroll-shopping {
     animation: unset;
   }
