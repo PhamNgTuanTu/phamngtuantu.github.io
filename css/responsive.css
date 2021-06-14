@@ -639,6 +639,9 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+  #progressbar {
+    display: none;
+  }
   .animated {
     visibility: hidden;
     animation-duration: none;
