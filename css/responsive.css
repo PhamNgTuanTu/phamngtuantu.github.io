@@ -639,6 +639,12 @@
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+  .animated {
+    visibility: hidden;
+    animation-duration: none;
+    animation-delay: none;
+    animation-name: none;
+  }
   .active-scroll-shopping {
     animation: unset;
   }
