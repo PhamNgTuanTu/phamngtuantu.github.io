@@ -33,8 +33,8 @@
   <body>
     <div id="preloder"><div class="loader"></div></div>
     <div class="scroll-top" onclick="scrollToTop()"></div>
-    <div id="progressbar"></div>
-    <div id="scrollPath"></div>
+    <!-- <div id="progressbar"></div>
+    <div id="scrollPath"></div> -->
 
     <!-- giới thiệu website -->
     <section class="info-header" id="menu-mobile">
@@ -1117,12 +1117,12 @@
       });
     </script>
     <script>
-      let progress= document.getElementById('progressbar');
-      let totalHeight = document.body.scrollHeight - window.innerHeight;
-      window.onscroll = function(){
-        let progressHeight = (window.pageYOffset / totalHeight) *100;
-        progress.style.height = progressHeight + "%";
-      }
+      // let progress= document.getElementById('progressbar');
+      // let totalHeight = document.body.scrollHeight - window.innerHeight;
+      // window.onscroll = function(){
+      //   let progressHeight = (window.pageYOffset / totalHeight) *100;
+      //   progress.style.height = progressHeight + "%";
+      // }
     </script>
   </body>
 </html>
