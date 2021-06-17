@@ -1033,6 +1033,37 @@
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/nav-menu.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+        // slider
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            loop: true,
+            margin: 0,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                },
+                479: {
+                    items: 1,
+                    nav: false,
+                },
+                600: {
+                    items: 1,
+                    nav: false,
+                },
+                1000: {
+                    items: 2,
+                    nav: false,
+                },
+            },
+        });
+        // --slider--
+    </script>
 </body>
 
 </html>

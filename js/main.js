@@ -3,32 +3,6 @@
     new WOW().init();
     // --wow--
 
-    // slider
-    var owl = $(".owl-carousel");
-    owl.owlCarousel({
-        loop: true,
-        margin: 0,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: false,
-            },
-            600: {
-                items: 1,
-                nav: false,
-            },
-            1000: {
-                items: 2,
-                nav: false,
-            },
-        },
-    });
-    // --slider--
-
     // progress-bar
     var progress = document.getElementById("progressbar");
     var totalHeight = document.body.scrollHeight - window.innerHeight;
