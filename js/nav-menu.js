@@ -1,5 +1,3 @@
-
-
 (() =>{
  
   const openNavMenu = document.querySelector(".open-nav-menu"),
@@ -10,7 +8,7 @@
 
   openNavMenu.addEventListener("click", toggleNav);
   closeNavMenu.addEventListener("click", toggleNav);
-  // close the navMenu by clicking outside
+  // đóng menu khi click bên ngoài
   menuOverlay.addEventListener("click", toggleNav);
 
   function toggleNav() {
@@ -22,19 +20,19 @@
   navMenu.addEventListener("click", (event) =>{
       if(event.target.hasAttribute("data-toggle") && 
       	window.innerWidth <= mediaSize){
-      	// prevent default anchor click behavior
+      	// ngăn chặn nhấp chuột
       	event.preventDefault();
       	const menuItemHasChildren = event.target.parentElement;
-        // if menuItemHasChildren is already expanded, collapse it
+        // nếu menuItemHasChildren được mở ra, thì đóng
         if(menuItemHasChildren.classList.contains("active")){
         	collapseSubMenu();
         }
         else{
-          // collapse existing expanded menuItemHasChildren
+          // thu gọn menu mở rộng hiện có
           if(navMenu.querySelector(".menu-item-has-children.active")){
         	collapseSubMenu();
           }
-          // expand new menuItemHasChildren
+          // mở rộng menu mới
           menuItemHasChildren.classList.add("active");
           const subMenu = menuItemHasChildren.querySelector(".sub-menu");
           subMenu.style.maxHeight = subMenu.scrollHeight + "px";
@@ -48,11 +46,11 @@
   	.classList.remove("active");
   }
   function resizeFix(){
-  	 // if navMenu is open ,close it
+  	 // đóng menu con đang mở
   	 if(navMenu.classList.contains("open")){
   	 	toggleNav();
   	 }
-  	 // if menuItemHasChildren is expanded , collapse it
+  	 // nếu menuItemHasChildren được mở ra, thì đóng
   	 if(navMenu.querySelector(".menu-item-has-children.active")){
         	collapseSubMenu();
      }

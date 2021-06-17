@@ -53,6 +53,34 @@
   .header .menu > .menu-item-has-children:hover > a .plus:after {
     transform: translate(-50%, -50%) rotate(0deg);
   }
+  .order-1-tablet {
+    order: 1;
+  }
+  .book-img .book-inner {
+    margin: 0 auto;
+  }
+  .book-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .detail-book__info {
+    margin-top: 20px;
+  }
+  .detail-book__name h3 {
+    text-align: center;
+  }
+  .background-mobile {
+    background: #f7f7f7;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .order-1-pc {
+    background: #fff;
+  }
 }
 
 /* Tablet Device = 768px */
@@ -81,8 +109,6 @@
     text-decoration: underline;
     padding: 10px;
   }
-
-  /* header  */
   .search {
     margin-top: 0 !important;
   }
@@ -195,7 +221,7 @@
     height: 50px;
     background-size: 20px;
   }
-  .shopping-cart{
+  .shopping-cart {
     width: 50px;
     height: 50px;
     background-size: 20px;
@@ -220,9 +246,6 @@
   .background-color {
     margin-bottom: 10px !important;
   }
-  /* //header  */
-
-  /* footer */
   .content-book-shop-policy {
     display: flex;
     flex-direction: column;
@@ -253,9 +276,9 @@
     justify-content: center;
   }
   .book-shop-address-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .text-book-shop-address {
     text-align: center;
@@ -264,7 +287,6 @@
   .background-footer {
     background: #f7f7f7;
   }
-  /* //footer */
   .book-update__content1 {
     display: flex;
     flex-direction: column;
@@ -283,12 +305,34 @@
   .header-logo__left a img {
     height: 70px;
   }
+  .order-1-tablet {
+    order: 1;
+  }
+  .book-img .book-inner {
+    margin: 0 auto;
+  }
+  .book-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .detail-book__info {
+    margin-top: 20px;
+  }
+  .detail-book__name h3 {
+    text-align: center;
+  }
+  .order-1-pc {
+    background: #fff;
+  }
 }
 
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
-  /* header  */
   .search {
     margin-top: 0 !important;
   }
@@ -401,14 +445,11 @@
     height: 50px;
     background-size: 20px;
   }
-  .shopping-cart{
+  .shopping-cart {
     width: 50px;
     height: 50px;
     background-size: 20px;
   }
-  /* //header  */
-
-  /* search  */
   .header-search form .inner-form .input-field.first-wrap .svg-wrapper {
     min-width: 40px;
     display: -ms-flexbox;
@@ -430,9 +471,6 @@
   .header-search form .inner-form .input-field.second-wrap .btn-search {
     font-size: 13px;
   }
-  /* // search  */
-
-  /* footer  */
   .content-book-shop-policy {
     width: 100% !important;
     display: block;
@@ -443,8 +481,6 @@
   .book-shop-follow-us h3 {
     display: none;
   }
-  /* //footer  */
-
   .main-book-product {
     padding-bottom: 30px;
   }
@@ -463,7 +499,6 @@
     display: flex;
     flex-direction: column;
   }
-  /* footer  */
   .footer-tablet-left {
     display: grid;
     grid-template-columns: 1fr;
@@ -555,8 +590,6 @@
     background: #ffffff;
     padding-bottom: 20px;
   }
-  /* //footer  */
-
   .book-update__content {
     flex-direction: column;
   }
@@ -634,6 +667,79 @@
   .text-book-shop-address {
     padding: 0 10px;
   }
+  .order-1-tablet {
+    order: 1;
+  }
+  .book-img .book-inner {
+    margin: 0 auto;
+  }
+  .book-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .detail-book__info {
+    margin-top: 20px;
+  }
+  .detail-book__name h3 {
+    text-align: center;
+  }
+  .detail-book__pay-info h5 {
+    font-size: 16px;
+  }
+  .pay-info-content-price1 span,
+  .pay-info-content-price2 span,
+  .pay-info-content-price3 span,
+  .pay-info-content-quality span,
+  .detail-book__pay-now-end p,
+  .btn-effect {
+    font-size: 15px;
+  }
+  .box-pay {
+    height: calc(100% - 29.2px);
+  }
+  .list-tittle {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  #container-tile .list-tittle li {
+    padding: 10px 0;
+  }
+  .p-0-tablet {
+    padding: 0 !important;
+  }
+  #container-tile .list-tittle li a {
+    padding: 20px 0px;
+  }
+  #container-content {
+    margin-top: 0;
+  }
+  .background-pc {
+    background: #fff;
+  }
+  .tab-slider--body {
+    background: #f7f7f7;
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .tab-slider--body h5 {
+    color: #0066c0;
+  }
+  .title-book-info,
+  #introduce-book p,
+  .list-info-book-pay li span,
+  .list-info-book-pay li a {
+    color: #000;
+  }
+  #detail-info-book {
+    margin-top: 20px;
+  }
 }
 
 /* Small Device = 320px */
@@ -651,7 +757,8 @@
   .menu-in-mobile {
     padding: 0;
   }
-  .info,.login-logout a span {
+  .info,
+  .login-logout a span {
     display: none;
   }
   .login-logout a i {
@@ -661,12 +768,13 @@
     width: 100% !important;
     height: 40px !important;
     box-shadow: none;
-    backdrop-filter:unset;
+    backdrop-filter: unset;
     background: transparent;
     position: unset;
     transform: translateY(0px);
   }
-  .login-in-mobile,.shopping-cart {
+  .login-in-mobile,
+  .shopping-cart {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -750,7 +858,8 @@
     align-items: center;
     justify-content: center;
   }
-  .header-logo__right .shopping-cart,.header-logo__right .header-login {
+  .header-logo__right .shopping-cart,
+  .header-logo__right .header-login {
     width: 50%;
   }
   .header-logo__right .shopping-cart {
@@ -860,5 +969,31 @@
   }
   .text-book-shop-address {
     padding: 0 10px;
+  }
+  .pt-0-mobile {
+    padding-top: 0 !important;
+  }
+  .box-pay {
+    height: 100%;
+    margin-top: 20px;
+  }
+  .mt-30-mobile {
+    margin-top: 30px;
+  }
+  .detail-book__content p {
+    font-size: 15px;
+  }
+  .pb-0-mobile {
+    padding-bottom: 0 !important;
+  }
+  #introduce-book p {
+    height: 400px;
+    overflow-y: scroll;
+  }
+  #detail-info-book {
+    display: block !important;
+  }
+  #container-tile {
+    display: none;
   }
 }
