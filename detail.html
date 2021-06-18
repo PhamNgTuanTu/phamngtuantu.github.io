@@ -176,7 +176,7 @@
                             <div class="header-login">
                                 <!-- đăng nhập  -->
                                 <div class="login-logout">
-                                    <a href="#">
+                                    <a data-toggle="modal" data-target="#exampleModalCenter">
                                         <span>Đăng Nhập | Đăng Ký</span>
                                         <i class="fas fa-user-alt"></i>
                                     </a>
@@ -570,6 +570,71 @@
         </div>
     </footer>
     <!-- //Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;top: 0;right: 5px;">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    <div class="form-structor">
+                        <div class="signup">
+                            <h2 class="form-title" id="signup">Đăng Ký</h2>
+                            <div class="form-holder">
+                                <div class="form-holder-icon">
+                                    <div class="social-container d-flex justify-content-center">
+                                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                    <div class="bar-form position-relative">
+                                        <span>or</span>
+                                    </div>
+                                </div>
+                                <input type="text" class="input" placeholder="Name" />
+                                <input type="email" class="input" placeholder="Email" />
+                                <div class="input-group">
+                                    <input type="password" class="input" id="password" placeholder="Password" />
+                                    <label for="password"></label>
+                                    <i class="fas fa-eye-slash eye"></i>
+                                </div>
+                                
+                            </div>
+                            <button class="submit-btn">Đăng Ký</button>
+                        </div>
+                        <div class="login slide-up">
+                            <div class="center">
+                                <h2 class="form-title" id="login">Đăng Nhập</h2>
+                                <div class="form-holder">
+                                    <div class="form-holder-icon">
+                                        <div class="social-container d-flex justify-content-center">
+                                            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="bar-form position-relative">
+                                            <span>or</span>
+                                        </div>
+                                    </div>
+                                    <input type="email" class="input" placeholder="Email" />
+                                    <div class="input-group">
+                                        <input type="password" class="input" id="password" placeholder="Password" />
+                                        <label for="password"></label>
+                                        <i class="fas fa-eye-slash eye"></i>
+                                    </div>
+                                    
+                                </div>
+                                <button class="submit-btn">Đăng Nhập</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
