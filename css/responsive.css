@@ -777,6 +777,14 @@
     overflow: hidden;
     margin-left: 10px;
   }
+  .author-detail-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .author-detail-title h4 {
+    text-align: center;
+  }
 }
 
 /* Small Device = 320px */
