@@ -208,7 +208,7 @@
   }
   .open-nav-menu {
     position: absolute;
-    right: 40px;
+    right: 100px;
     top: 50%;
     transform: translateY(-50%);
     margin-right: 0 !important;
@@ -785,6 +785,7 @@
   .author-detail-title h4 {
     text-align: center;
   }
+  
 }
 
 /* Small Device = 320px */
